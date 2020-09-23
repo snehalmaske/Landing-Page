@@ -1,0 +1,197 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-top: 70px;
+}
+
+
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Navbar */
+
+#title {
+  background-image: url('ring_images/img_10.jpg');
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.container-fluid {
+  padding: 2% 15%;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2 rem;
+}
+
+.logo-image {
+  width: 80px;
+}
+
+/* features section*/
+#features {
+  padding: 4% 15%;
+}
+
+.fas {
+  color: #ef8172;
+  padding-bottom: 3%;
+}
+
+i:hover {
+  color: #ff4c68;
+}
+
+/* Collection */
+#collection {
+  padding-bottom: 3%;
+}
+
+.gallery-cont {
+  display: grid;
+  grid-gap: 1rem;
+  padding: 1% 10%;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: auto;
+}
+
+.gallery_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: grayscale(40%);
+}
+
+img:hover {
+  filter: grayscale(0);
+}
+
+figure:hover {
+  transform: scale(1.1);
+  transition: all .5s;
+}
+
+.gallery-1 {
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 3;
+}
+
+.gallery-2 {
+  grid-column: 8 / span 4;
+  grid-row: 3 / span 3;
+}
+
+.gallery-3 {
+  grid-column: 1 / span 3;
+  grid-row: 4 / span 2;
+}
+
+.gallery-4 {
+  grid-column: 4 / span 2;
+  grid-row: 1 / span 1;
+}
+
+.gallery-5 {
+  grid-column: 6 / span 2;
+  grid-row: 1 / span 1;
+}
+
+.gallery-6 {
+  grid-column: 4 / span 4;
+  grid-row: 2 / span 3;
+}
+
+.gallery-7 {
+  grid-column: 6 / span 2;
+  grid-row: 5 / span 1;
+}
+
+.gallery-8 {
+  grid-column: 8 / span 4;
+  grid-row: 1 / span 2;
+}
+
+.gallery-9 {
+  grid-column: 4 / span 2;
+  grid-row: 5 / span 1;
+}
+
+/* Team */
+#team {
+  padding: 1% 10%;
+  background-color: #ddf3f5;
+}
+
+.team_img {
+  padding: 30px;
+  width: 70%;
+  height: 80%;
+  border-radius: 100%;
+}
+
+.team_para {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/* Top Engagement Rings */
+#rated {
+  padding: 4% 15%;
+}
+
+
+/* Contact Us */
+#contact-us {
+  padding: 5%;
+  background-color: #ddf3f5;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+btn {
+  font-size: .5rem;
+  padding-top: 1%;
+}
+
+/* footer */
+
+.icons {
+  padding: 2% 40%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 990px) {
+  #title {
+    text-align: bottom;
+  }
+}
